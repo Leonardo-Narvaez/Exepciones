@@ -9,10 +9,10 @@ import org.slf4j.LoggerFactory;
 public class GuardarContacto {
 	private static final Logger log = LoggerFactory.getLogger(GuardarContacto.class);
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		FileWriter escritor = null;
+	public void guardarContacto() {
 		
+		FileWriter escritor = null;
+
 		try {
 
 			escritor = new FileWriter("contactos.txt", true);
