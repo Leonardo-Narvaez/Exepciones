@@ -12,6 +12,7 @@ public class GuardarContacto {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		FileWriter escritor = null;
+		
 		try {
 
 			escritor = new FileWriter("contactos.txt", true);
